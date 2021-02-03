@@ -1,0 +1,38 @@
+body{
+	color: black;
+	text-align: center;
+	vertical-align: center;
+	font-size: 25px;
+	background-image: url("C:\Users\garet\OneDrive\Desktop\Unit 59 - WebsiteDevelopment\volcano.jpg");
+}
+
+a{
+	color: green;
+	text-decoration: none;
+}
+
+p{
+	color: orange;
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 100%;
+	border: 1px black;
+}
+
+th,td {
+	border: 1px black;
+}
+
+th{
+	background-color: green;
+}
+
+tr{
+	background-color: black;
+}
+
+#MyTable tr:hover {background-color: green;}
