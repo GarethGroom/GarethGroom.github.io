@@ -36,3 +36,10 @@ tr{
 }
 
 #MyTable tr:hover {background-color: green;}
+
+.button {
+	background-color: lightgreen;
+}
+.button:hover {
+	background-color: green;
+}

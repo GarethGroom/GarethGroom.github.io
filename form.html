@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mycss.css">
+		<title> Portfolio </title>
+		<style>
+			.button {
+				background-color: lightgreen;
+			}
+			.button:hover {
+				background-color: green;
+			}
+		</style>
+	</head>
+<body>
+
+<a href="index.html">home</a><br />
+<a href="form.html">form</a><br />
+
+<form action="form.html" method="get">
+  <label for="email">Email:</label>
+  <input type="email" name="email" placeholder="Email"><br>
+
+  <label for="phone">Phone Number:</label>
+  <input type="number" name="phone" placeholder="Phone Number"><br>
+
+  <label for="text">Message:</label>
+  <textarea name="text" rows="8" cols="80"></textarea><br>
+
+  <input class="button" type="submit" value="submit">
+</form>
+
+</body>
+</html>
